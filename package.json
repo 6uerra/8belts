@@ -1,0 +1,27 @@
+{
+  "name": "eightbelts",
+  "version": "1.0.0",
+  "description": "automation test 8belts",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber.js"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Andres Guerra",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.2.0",
+    "@serenity-js/assertions": "^3.6.1",
+    "@serenity-js/console-reporter": "^3.6.1",
+    "@serenity-js/core": "^3.6.1",
+    "@serenity-js/cucumber": "^3.6.1",
+    "chai": "^4.3.7",
+    "chromedriver": "^114.0.2",
+    "cucumber-html-reporter": "^7.1.1",
+    "faker": "^5.5.3",
+    "properties-reader": "^2.2.0",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
